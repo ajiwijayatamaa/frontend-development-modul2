@@ -1,0 +1,36 @@
+.container{
+    border: 3px solid red;
+    width: 600px;
+    height: 3000px;
+    margin: auto; /* Menengahkan horizontal*/
+    position: relative;
+}
+
+.kotak-1{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    position: sticky;
+    top: 0;
+}
+
+.kotak-2{
+    position: relative;
+    background-color: rgb(228, 207, 240);
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    left: 10px;
+}
+
+.kotak-3{
+    background-color: rgb(98, 25, 50);
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+

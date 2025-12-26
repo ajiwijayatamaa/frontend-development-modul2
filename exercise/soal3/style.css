@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ECF2F8;
+}
+.group1,
+.group2,
+.group3,
+.group4,
+.group5 {
+    padding: 32px;
+}
+
+.container{
+    width: 327px;
+    height: 1824px;
+    margin: auto;
+}
+.group1{
+    position: relative;
+    border-radius: 8px;
+    width: 327px;
+    height: 444px;
+    background-color: #733FC8;
+    z-index: 999;
+}
+.icon{
+    background-image: url(icon.png);
+    width: 104px;
+    height: 102px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    z-index:-1;
+}
+.author{
+    width: 123px;
+    height: 28px;
+    display: flex;
+    gap: 17px;
+}
+.img-author{
+    background-image: url(daniel.png);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border-color: #A775F1;
+}
+.name-author{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+.verif-author{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 11px;
+    opacity: .5;
+}
+
+.content1a{
+    margin-top: 18px;
+}
+.text-category{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.content1b{
+    margin-top: 40px;
+}
+.text-description{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #CFCFCF;
+    opacity: .7;
+}
+/* ======================================================
+                        END Group 1
+=========================================================*/
+
+
+/* ======================================================
+                        Group 2
+=========================================================*/
+.group2{
+    width: 327px;
+    height: 240px;
+    background-color: #48556A;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.author2{
+    width: 140px;
+    height: 28px;
+    display: flex;
+}
+
+.img-author2{
+    background-image: url(jonathan.png);
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-author2{
+    width: 91px;
+    height: 28px;
+    margin-left:17px ;
+}
+.name-author2{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+}
+.verif-author2{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 11px;
+    opacity: .5;
+}
+.content-group2a{
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+.text-category2{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.text-description2{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: .7;
+}
+/* ======================================================
+                    END Group 2
+=========================================================*/
+
+
+/* ======================================================
+                        Group 3
+=========================================================*/
+.group3{
+    width: 327px;
+    height: 222px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.author3{
+    width: 134px;
+    height: 28px;
+    display: flex;
+}
+
+.img-author3{
+    background-image: url(jeanetter.png);
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-author3{
+    width: 89px;
+    height: 28px;
+    margin-left:17px ;
+}
+.name-author3{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 4px;
+    color: #48556A;
+}
+.verif-author3{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 11px;
+    opacity: .5;
+}
+.content-group3a{
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+.text-category3{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #48556A;
+}
+.text-description3{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #48556A;
+    opacity: .7;
+}
+
+/* ======================================================
+                    END Group 3
+=========================================================*/
+
+
+/* ======================================================
+                        Group 4
+=========================================================*/
+.group4{
+    width: 327px;
+    height: 384px;
+    background-color: #19202D;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.author4{
+    width: 124px;
+    height: 28px;
+    display: flex;
+}
+
+.img-author4{
+    background-image: url(patrick.png);
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    border-color: #733FC8;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-author4{
+    width: 79px;
+    height: 28px;
+    margin-left:17px ;
+}
+.name-author4{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+}
+.verif-author4{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 11px;
+    opacity: .5;
+    color: #FFFFFF;
+}
+.content-group4a{
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+.text-category4{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ECF2F8;
+}
+.text-description4{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: .7;
+}
+/* ======================================================
+                    END Group 4
+=========================================================*/
+
+
+/* ======================================================
+                    Group 5
+=========================================================*/
+.group5{
+    width: 327px;
+    height: 438px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.author5{
+    width: 121px;
+    height: 28px;
+    display: flex;
+}
+
+.img-author5{
+    background-image: url(kira.png);
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-author5{
+    width: 76px;
+    height: 28px;
+    margin-left:17px ;
+}
+.name-author5{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 4px;
+    color: #48556A;
+}
+.verif-author5{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 11px;
+    opacity: .5;
+    color: #FFFFFF;
+}
+.content-group5a{
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+.text-category5{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #48556A;
+}
+.text-description5{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #48556A;
+    opacity: .7;
+}
+/* ======================================================
+                    END Group 5
+=========================================================*/
+
+/* DESKTOP */
+@media (min-width: 1025px) {
+
+    .container {
+        width: 1110px;
+        height: 572px;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        gap: 24px 30px; /* 20px = atas-bawah, 40px = kiri-kanan */
+    }
+    /* GROUP 1 */
+    .group1{
+    width: 540px;
+    height: 282px ;
+    }
+    .icon{
+        left: 350px;
+    }
+    .author{
+        width: 121px;
+        height: 28px;
+    }
+    .text-author{
+        width: 76px;
+        height: 28px;
+    }
+
+    .content1a{
+        margin-top: 18px;
+    }
+    .text-category{
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .content1b{
+        margin-top: 16px;
+    }
+    .text-description{
+        line-height: 18px;
+    }
+
+
+    /* GROUP 2 */
+    .group2{
+    width: 327px;
+    height: 240px;
+    background-color: #48556A;
+    border-radius: 8px;
+    margin-top: 24px;
+    }
+
+    .author2{
+        width: 140px;
+        height: 28px;
+        display: flex;
+    }
+
+    .img-author2{
+        background-image: url(jonathan.png);
+        width: 28px;
+        height: 28px;
+        border-radius: 28px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .text-author2{
+        width: 91px;
+        height: 28px;
+        margin-left:17px ;
+    }
+    .name-author2{
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 13px;
+        margin-bottom: 4px;
+        color: #FFFFFF;
+    }
+    .verif-author2{
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 11px;
+        line-height: 11px;
+        opacity: .5;
+    }
+    .content-group2a{
+        margin-top: 18px;
+        margin-bottom: 16px;
+    }
+    .text-category2{
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .text-description2{
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 18px;
+        color: #FFFFFF;
+        opacity: .7;
+    }
+
+}

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2EAE2;
+}       
+
+
+
+.container{
+    border-radius: 20px;
+    width: 343px;
+    height: 611px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 28px;
+    display: grid;
+    overflow: hidden;
+}
+.bitmap{
+    width: 343px;   
+    height: 240px;
+    background-image: url(Bitmap.png);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.content{
+    padding: 24px;
+}
+.text_perfume{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.text_tittle {
+    margin-top: 12px;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+.text_description{
+    margin-top: 16px;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+.discount_price,
+.real_price {
+    display: inline-block; 
+    vertical-align: middle;
+}
+.price_list{
+    margin-top: 24px;
+    margin-bottom: 20px;
+    
+}
+.discount_price{
+    color: #3D8168;
+    display: inline-block;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+.real_price{
+    text-decoration: line-through;
+    color: #6C7289;
+    line-height: 14px; 
+    margin-left: 19px;
+    display: inline-block;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+.button_payment{
+    width: 295px;
+    height: 48px;
+    background-color: rgb(51, 156, 121);
+    border-radius: 8px;
+    text-align: center;
+    display: flex;          /* Biar gambar + teks rapi */
+    align-items: center;    /* Vertikal tengah */
+    justify-content: center;/* Horizontal tengah */
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.button_payment img{
+    margin-right: 11px;
+}
+
+.button_payment:hover{
+    background-color: rgb(168, 196, 186);
+    transition: .3s ease-in-out;
+}
+
+
+@media (min-width: 1025px) {
+
+    .container {
+        width: 600px;
+        height: 450px;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+
+    .bitmap {
+        width: 300px;
+        height: 450px;
+        background-image: url(Bitmapdesktop.png);
+    }
+    .content{
+        padding: 32px;
+    }
+    .button_payment{
+        width: 236px;
+        height: 48px;
+    }
+}
