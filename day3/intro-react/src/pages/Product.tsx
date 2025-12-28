@@ -14,8 +14,6 @@ const Product = () => {
       <Card name={productList[1].name} price={productList[1].price} />
       <Card name={productList[2].name} price={productList[2].price} />
       <Card name={productList[3].name} price={productList[3].price} /> */}
-
-      {/* LOOPING */}
       {productList.map((product, index) => {
         return <Card key={index} name={product.name} price={product.price} />;
       })}
